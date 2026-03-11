@@ -27,6 +27,8 @@
     --pm-color-700:#808013;
     --pm-color-800:#5E5E0B;
     --pm-color-900:#3B3B06;
+    /* 포인트컬러 -> 400 */
+    --point-color:#C7C744;
     /* 여백 */
     --space-2x-small:0.125rem;
     --space-x-small:0.25rem;
