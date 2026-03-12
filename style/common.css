@@ -35,6 +35,12 @@ p{
     display: flex;
     gap: .5rem;
 }
+.sns img{
+        height: 1.2rem;
+}
+.mo{
+    display: none;
+}
 
 @media (max-width:1440px){
     html{
@@ -46,6 +52,9 @@ p{
     }
 }
 @media (max-width:768px){
+    .mo{
+    display: block;
+    }
     html{
         font-size: var(--basic-font-mo);
     }
@@ -53,4 +62,4 @@ p{
         width: auto;
         margin: 0 1rem;
     }
-}
+}    
