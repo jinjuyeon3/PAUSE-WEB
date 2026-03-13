@@ -41,10 +41,31 @@ p{
 .mo{
     display: none;
 }
+.tab{
+    display: none;
+}
+.pc{
+    display: block;
+}
+main{
+    margin-top: 100px;
+}
 
 @media (max-width:1440px){
+    .mo{
+        display: none;
+    }
+    .tab{
+        display: block;
+    }
+    .pc{
+        display: none;
+    }
     html{
         font-size: var(--basic-font-tab);
+    }
+    main{
+        margin-top: 5rem;
     }
     .common-frame{
         width: auto;
@@ -53,7 +74,13 @@ p{
 }
 @media (max-width:768px){
     .mo{
-    display: block;
+        display: block;
+    }
+    .tab{
+        display: none;
+    }
+    .pc{
+        display: none;
     }
     html{
         font-size: var(--basic-font-mo);
