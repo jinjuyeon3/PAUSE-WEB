@@ -24,6 +24,15 @@ p{
 .b2{
     font-size: var(--fs-bd2);
 }
+.fwr{
+    font-weight: var(--fw-reg);
+}
+.fwm{
+    font-weight: var(--fw-med);
+}
+.fwb{
+    font-weight: var(--fw-bold);
+}
 .de{
     font-size: var(--fs-det);
 }
@@ -36,7 +45,7 @@ p{
     gap: .5rem;
 }
 .sns img{
-        height: 1.2rem;
+    height: 1.2rem;
 }
 .mo{
     display: none;
@@ -49,6 +58,26 @@ p{
 }
 main{
     margin-top: 100px;
+}
+.btn-style{
+    display: inline-flex;
+    padding: .25rem .75rem;
+    align-items: center;
+    gap: var(--space-normal);
+    border-bottom: 1px solid #fff;
+}
+.btn-style .hover{
+    display: none;
+}
+.btn-style:hover{
+    color: var(--point-color);
+    border-bottom: 1px solid var(--point-color);
+}
+.btn-style:hover .basic{
+    display: none;
+}
+.btn-style:hover .hover{
+    display: inline-block;
 }
 
 @media (max-width:1440px){
