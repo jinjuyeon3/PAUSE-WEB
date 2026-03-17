@@ -1,0 +1,23 @@
+.sub-banner{
+    height: 600px;
+    background: url(../img/sub-banner-story.jpg) no-repeat 50% 50% /cover;
+}
+.sub-banner .common-frame{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+@media (max-width: 1440px){
+    .sub-banner{
+        height: 400px;
+    }
+}
+
+@media (max-width: 768){
+    .sub-banner{
+        height: 537px;
+    }
+}

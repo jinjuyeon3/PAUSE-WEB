@@ -2,6 +2,9 @@ html{
     font-family: 'Pretendard', sans-serif;
     font-size: var(--basic-font-pc);
 }
+main{
+    min-height: 60vh;
+}
 h1{
     font-size: var(--fs-h1);
     font-weight: var(--fw-bold);
@@ -47,6 +50,9 @@ p{
 .sns img{
     height: 1.2rem;
 }
+.sns svg{
+    height: 1.2rem;
+}
 .mo{
     display: none;
 }
@@ -78,6 +84,9 @@ main{
 }
 .btn-style:hover .hover{
     display: inline-block;
+}
+.ptc{
+    color: var(--point-color);
 }
 
 @media (max-width:1440px){

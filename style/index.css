@@ -33,7 +33,7 @@
     object-fit: cover;
 }
 .story{
-    margin: var(--space-3x-large) 0;
+    margin-top: var(--space-3x-large);
 }
 .story h1{
     margin-bottom: var(--space-2x-large);
