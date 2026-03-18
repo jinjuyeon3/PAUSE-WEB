@@ -89,6 +89,7 @@ main{
     color: var(--point-color);
 }
 
+
 @media (max-width:1440px){
     .mo{
         display: none;

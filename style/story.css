@@ -9,6 +9,60 @@
     align-items: center;
     color: #fff;
 }
+.core{
+    margin-top: var(--space-3x-large);
+}
+.core .common-frame>p:first-of-type{
+    text-align: center;
+    margin-bottom: var(--space-normal);
+    font-weight: var(--fw-bold);
+}
+.core h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: var(--space-normal);
+}
+.core h1+p{
+    text-align: center;
+    margin-bottom: var(--space-x-large);
+}
+.core-card{
+    
+}
+.core-card>li{
+    border: 1px solid #000;
+    border-radius: 1rem;
+    padding: var(--space-large);
+    box-sizing: border-box;
+}
+.core-card>li>h4{
+    margin-bottom: var(--space-small);
+}
+.core-card>li>h4+p{
+    margin-bottom: var(--space-normal);
+}
+.core-card>li>h4+*+p{
+    margin-bottom: var(--space-normal);
+}
+.core-card>li>figure{
+    margin-bottom: var(--space-normal);
+}
+.core-card>li ul{
+    margin-bottom: var(--space-normal);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-small);
+}
+.core-check-list li{
+    display: flex;
+    /* align-items: center; */
+    gap: var(--space-small);
+}
+.core-check-list li img{
+    height: 1.2rem;
+}
 
 @media (max-width: 1440px){
     .sub-banner{
