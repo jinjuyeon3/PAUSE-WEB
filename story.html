@@ -249,8 +249,54 @@
                     </ul>
                 </div>
                 <script>
-                    const coreSwiper = new Swiper('.core-swiper',{})
+                    const coreSwiper = new Swiper('.core-swiper',{
+                        slidesPerView: 1.2,
+                        spaceBetween: 14,
+                        breakpoints: {
+                            768: {
+                                // 768 화면너비보다 클 떼
+                                slidesPerView: 3,
+                                spaceBetween: 18,
+                            },
+                            // 1440 화면너비보다 클 때
+                            1440: {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                        },
+                    })
                 </script>
+            </div>
+        </div>
+
+        <!-- 아이덴티티 -->
+        <div class="identity">
+            <div class="common-frame">
+                <h1>SPACE TO STAY</h1>
+                <p class="fwb">머물기 위해 설계된 공간</p>
+                <figure class="iden-img">
+                    <img src="./img/banner-identity.jpg" alt="카페 파우즈 인테리어">
+                </figure>
+                <div class="identity-desc">
+                    <div class="iden-left">
+                        <h5 class="fwb">Designed<br>
+                            for<br>
+                            Staying
+                        </h5>
+                        <p class="fwm">잠시 멈춰도 괜찮은 곳,<br>여기는 머무는 시간을 만듭니다.</p>
+                    </div>
+                    <div class="iden-right">
+                        <p>
+                            공간은 단순히 머무는 장소가 아니라<br>하루의 밀도를 낮추는 장치라고 생각합니다.<br>빛과 소재, 거리와 여백까지모든 요소는 ‘쉼’을 기준으로 설계됩니다.
+                        </p>
+                        <p>
+                            이곳에서는 서두를 필요가 없습니다.<br>짧은 대화도, 긴 생각도 자연스럽게 흐릅니다.<br>혼자여도 어색하지 않고함께여도 부담스럽지 않은 분위기를 만듭니다.
+                        </p>
+                        <p>
+                            커피 한 잔이 완성되는 시간처럼공간 역시 천천히 경험되기를 바랍니다.<br>잠시 앉아 있는 것만으로도 충분한 곳,<br>Pause는 그렇게 머무는 순간을 디자인합니다.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

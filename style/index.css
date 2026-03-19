@@ -87,6 +87,7 @@
 }
 .menu-frame h1+p{
     margin-bottom: var(--space-x-large);
+    text-align: center;
 }
 .menu-frame .swiper-slide h4{
     margin-top: 1.5rem;
