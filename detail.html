@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="./style/list.css">
     <script src="./script/listArray.js"></script>
+    <script src="./script/detail-recommend.js"></script>
     <link rel="stylesheet" href="./style/detail.css">
 </head>
 <body>
@@ -228,6 +229,154 @@
                         <li><a href="#">장바구니</a></li>
                         <li><a href="#">구매하기</a></li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="common-frame sticky-menu-wrap">
+            <ul class="sticky-menu">
+                <li><a href="#">많이 찾는 상품</a></li>
+                <li><a href="#">영양성분</a></li>
+                <li><a href="#">리뷰</a></li>
+            </ul>
+        </div>
+        <div class="recommend-product">
+            <div class="common-frame">
+                <h2>많이 찾는 상품</h2>
+                <ul class="list-grid"></ul>
+            </div>
+        </div>
+        <div class="nutri">
+            <div class="common-frame">
+                <h2>영양성분</h2>
+                <div class="nutri-inner">
+                    <div class="nutri1">
+                        <h3>Matcha Herb Latte</h3>
+                        <p>깊고 부드러운 말차에 허브 향을 더한, Cafe Pause만의 시그니처 메뉴</p>
+                        <table>
+                            <caption>1회 제공량 기준</caption>
+                            <tr>
+                                <th>성분명</th>
+                                <th>함량</th>
+                            </tr>
+                            <tr>
+                                <td class="fwb">열량</td>
+                                <td class="fwm">180kcal</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">탄수화물</td>
+                                <td class="fwm">22g (당류 18g)</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">단백질</td>
+                                <td class="fwm">6g</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">지방</td>
+                                <td class="fwm">7g (포화지방 4g)</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">나트륨</td>
+                                <td class="fwm">85mg</td>
+                            </tr>
+                            <tr>
+                                <td class="fwb">카페인</td>
+                                <td class="fwm">60mg</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="nutri2">
+                        <img src="./img/pro-tumb-detail2.jpg" alt="상품 썸네일">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="common-frame">
+                <h2>리뷰</h2>
+                <div class="review-wrap">
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>_soothing.days</h4>
+                            <p>2026년 8월 6일</p>
+                            <div class="likes">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                            </div>
+                        </div>
+                        <div class="rev-user-desc">
+                            <h4>하루의 끝을 정리해주는 한 잔</h4>
+                            <div class="rev-thumb-wrap">
+                                <ul class="rev-thumb-list">
+                                    <li>
+                                        <img src="./img/rev-img1.jpg" alt="리뷰이미지1">
+                                        <img src="./img/rev-img2.jpg" alt="리뷰이미지2">
+                                        <img src="./img/rev-img3.jpg" alt="리뷰이미지3">
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                요즘 하루 끝나고 마음이 좀 복잡할 때 마시면 진짜 차분해지는 느낌이에요. 말차 향이 부드럽게 퍼지면서 허브 향이 은은하게 올라와서 부담이 없어요. 너무 달지 않아서 더 좋고, 마시는 동안 자연스럽게 긴장이 풀리는 느낌이에요. 카페에서 잠깐 쉬고 싶을 때 딱 어울리는 메뉴라고 생각해요. 다음에도 또 생각나서 재방문할 것 같아요.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>_pause.and.more</h4>
+                            <p>2026년 8월 27일</p>
+                            <div class="likes">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                            </div>
+                        </div>
+                        <div class="rev-user-desc">
+                            <h4>가볍게 즐기기 좋은 말차 라떼</h4>
+                            <div class="rev-thumb-wrap">
+                                <ul class="rev-thumb-list">
+                                    <li>
+                                        <img src="./img/rev-img4.jpg" alt="리뷰이미지4">
+                                        <img src="./img/rev-img5.jpg" alt="리뷰이미지5">
+                                        <img src="./img/rev-img6.jpg" alt="리뷰이미지6">
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                카페인 부담 없이 마실 수 있어서 편하게 즐기기 좋았어요. 일반 말차라떼보다 훨씬 가볍고 깔끔한 느낌이라 부담이 덜해요. 허브 향이 강하지 않고 은은하게 느껴져서 호불호 없을 것 같아요. 개인적으로는 말차 맛이 조금 더 진해도 좋을 것 같긴 했어요. 그래도 전체적인 밸런스는 컨셉이랑 잘 맞는 메뉴라고 느꼈어요.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="rev-con">
+                        <div class="rev-user-info">
+                            <h4>_green.moment</h4>
+                            <p>2026년 12월 31일</p>
+                            <div class="likes">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                                <img src="./img/rev-star.svg" alt="별점">
+                            </div>
+                        </div>
+                        <div class="rev-user-desc">
+                            <h4>비 오는 날, 가장 잘 어울리는 맛</h4>
+                            <div class="rev-thumb-wrap">
+                                <ul class="rev-thumb-list">
+                                    <li>
+                                        <img src="./img/rev-img7.jpg" alt="리뷰이미지7">
+                                        <img src="./img/rev-img8.jpg" alt="리뷰이미지8">
+                                        <img src="./img/rev-img9.jpg" alt="리뷰이미지9">
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>
+                                비 오는 날 창가 자리에서 마셨는데 분위기랑 너무 잘 어울렸어요. 텁텁하지 않고 맑게 떨어지는 맛이라 계속 마시게 되더라고요. 입 안에 남는 잔향이 깔끔해서 기분까지 편안해지는 느낌이에요. 비주얼도 예뻐서 사진 찍기 좋아서 만족도가 더 높았어요. 다음에는 친구랑 같이 와서 다시 마셔보고 싶은 메뉴예요.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
