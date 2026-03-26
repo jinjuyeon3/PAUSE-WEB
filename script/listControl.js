@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     listArray.forEach(item => {
         result += `
             <li>
-                <a href="#">
+                <a href="./detail.html?pid=${item.pid}">
                     <figure>
                         <img src="./img/${item.pThumbnail}" alt="${item.pName}">
                     </figure>
