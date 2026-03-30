@@ -59,6 +59,7 @@
 }
 .come2{
     margin-top: var(--space-3x-large);
+    margin-bottom: var(--space-3x-large);
 }
 .come2 h3{
     text-align: center;
@@ -68,6 +69,22 @@
     text-align: center;
     margin-bottom: var(--space-x-large);
 }
+.come2-list{
+    display: flex;
+    gap: var(--space-normal);
+}
+.come2-list li{
+    flex: 1;
+    background-color: #FAFAFA;
+    padding: var(--space-normal);
+    padding-bottom: var(--space-large);
+    border-radius: .75rem;
+}
+.come2-list h5{
+    font-weight: var(--fw-bold);
+    margin-bottom: 1.5rem;
+}
+
 
 
 
@@ -91,5 +108,8 @@
     .come1-content{
         flex-direction: column;
         gap: var(--space-large);
+    }
+    .come2-list{
+        flex-direction: column;
     }
 }
