@@ -6,7 +6,7 @@ async function includeHTML(selector, url, callback) {
         const resp = await fetch(url);
         if (resp.ok) {
             el.innerHTML = await resp.text();
-            // header()
+            header()
             if(callback) callback();
         }
     } catch (error) {
