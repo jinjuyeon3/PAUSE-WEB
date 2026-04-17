@@ -266,7 +266,8 @@
     .sell-info>div:first-of-type{
         grid-column: 1/3;
     }
-    .sticky-menu{
+    .sticky-menu {
+        width: auto;
         justify-content: flex-start;
     }
     .nutri-inner{
@@ -279,5 +280,15 @@
     }
     .rev-con{
         flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .sticky-menu a {
+        width: 100%;
+        padding: initial;
+        padding-bottom: .5rem;
+        display: block;
+        box-sizing: border-box;
     }
 }
