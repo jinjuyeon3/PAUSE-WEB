@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <link rel="stylesheet" href="./style/story.css">
+    <script src="./script/index.js"></script>
 </head>
 <body>
     <div id="include-header"></div>
@@ -30,19 +31,19 @@
         <!-- 핵심가치 -->
         <div class="core">
             <div class="common-frame">
-                <p class="b2">하루의 속도를 낮추는 공간</p>
-                <h1>A MOMENT TO STAY</h1>
-                <p>언제 어디서나 부담 없이 머물 수 있는 공간,<br>일상 속에 자연스럽게 스며드는 카페 Pause 입니다. </p>
+                <p class="b2 ani1">하루의 속도를 낮추는 공간</p>
+                <h1 class="ani1">A MOMENT TO STAY</h1>
+                <p class="ani1">언제 어디서나 부담 없이 머물 수 있는 공간,<br>일상 속에 자연스럽게 스며드는 카페 Pause 입니다. </p>
                 <div class="swiper core-swiper">
                     <ul class="core-card swiper-wrapper">
                         <li class="swiper-slide">
                             <h4>REST</h4>
                             <p class="fwb">휴식</p>
-                            <p class="fwm">바쁜 하루 속에서,<br>잠시 숨을 고를 수 있는 시간 제공합니다.</p>
+                            <p class="fwm">바쁜 하루 속에서, 잠시 숨을 고를 수 있는 여유로운 시간을 제공합니다.</p>
                             <figure>
                                 <img src="./img/core1.jpg" alt="휴식">
                             </figure>
-                            <ul class="core-check">
+                            <ul class="core-check-list">
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">바쁜 일상 속 짧은 휴식</li>
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">편히 숨 고를 수 있는 공간</li>
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">머무는 것만으로도 충분</li>
@@ -54,11 +55,11 @@
                         <li class="swiper-slide">
                             <h4>BALANCE</h4>
                             <p class="fwb">균형</p>
-                            <p class="fwm">커피, 공간, 가격의 균형을 맞춘 데일리 카페 경험을 제공합니다.</p>
+                            <p class="fwm">커피와 공간, 가격의 균형을 통해 일상에 편안한 카페 경험을 제공합니다.</p>
                             <figure>
                                 <img src="./img/core2.jpg" alt="균형">
                             </figure>
-                            <ul class="core-check">
+                            <ul class="core-check-list">
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">가격과 만족의 균형</li>
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">일상에 부담 없는 선택</li>
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">매일 찾게 되는 안정감</li>
@@ -70,17 +71,17 @@
                         <li class="swiper-slide">
                             <h4>SIMPLE</h4>
                             <p class="fwb">간결함</p>
-                            <p class="fwm">복잡하지 않은 메뉴 구성과 효율적인 운영 시스템을 선택하였습니다.</p>
+                            <p class="fwm">복잡하지 않은 메뉴 구성과 효율적인 시스템으로 누구나 쉽게 이용할 수 있습니다.</p>
                             <figure>
                                 <img src="./img/core3.jpg" alt="휴식">
                             </figure>
-                            <ul class="core-check">
+                            <ul class="core-check-list">
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">복잡함을 덜어낸 구성</li>
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">직관적인 메뉴와 시스템</li>
                                 <li><img src="./img/icon-check.svg" alt="체크 아이콘">편안함에 집중한 설계</li>
                             </ul>
                             <p class="fwm">
-                                복잡함을 덜어낸 구성과 직관적인 시스템으로, 누구나 쉽게 이용할 수 있도록 설계되어 편안함에 온전히 집중할 수 있습니다.
+                                복잡함을 덜어낸 구조와 직관적인 흐름으로, 누구나 쉽게 이해하고 편안하게 사용할 수 있습니다.
                             </p>
                         </li>
                     </ul>
@@ -109,8 +110,8 @@
         <!-- 아이덴티티 -->
         <div class="identity">
             <div class="common-frame">
-                <h1>SPACE TO STAY</h1>
-                <p class="fwb">머물기 위해 설계된 공간</p>
+                <h1 class="ani1">SPACE TO STAY</h1>
+                <p class="fwb ani1">머물기 위해 설계된 공간</p>
                 <figure class="iden-img">
                     <img src="./img/banner-identity.jpg" alt="카페 파우즈 인테리어">
                 </figure>
@@ -123,13 +124,13 @@
                         <p class="fwm">잠시 멈춰도 괜찮은 곳,<br>여기는 머무는 시간을 만듭니다.</p>
                     </div>
                     <div class="iden-right">
-                        <p>
+                        <p class="fade-up">
                             공간은 단순히 머무는 장소가 아니라<br>하루의 밀도를 낮추는 장치라고 생각합니다.<br>빛과 소재, 거리와 여백까지모든 요소는 ‘쉼’을 기준으로 설계됩니다.
                         </p>
-                        <p>
+                        <p class="fade-up">
                             이곳에서는 서두를 필요가 없습니다.<br>짧은 대화도, 긴 생각도 자연스럽게 흐릅니다.<br>혼자여도 어색하지 않고함께여도 부담스럽지 않은 분위기를 만듭니다.
                         </p>
-                        <p>
+                        <p class="fade-up">
                             커피 한 잔이 완성되는 시간처럼공간 역시 천천히 경험되기를 바랍니다.<br>잠시 앉아 있는 것만으로도 충분한 곳,<br>Pause는 그렇게 머무는 순간을 디자인합니다.
                         </p>
                     </div>
