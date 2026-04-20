@@ -81,7 +81,8 @@
 .menu-frame{
     margin-bottom: var(--space-3x-large);
 }
-.menu-frame h1{
+.menu-frame h1 {
+    text-align: center;
     margin-top: var(--space-3x-large);
     margin-bottom: var(--space-small);
 }
